@@ -1,0 +1,8 @@
+<ul>
+    <li *ngFor="let user of users">
+        <a [routerLink]="['/user', user]"> User {{ user }} </a>
+    </li>
+</ul>
+<a href={{url}} target="_blank">
+  Share on Facebook
+</a>
